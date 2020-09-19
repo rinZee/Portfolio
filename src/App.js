@@ -1,24 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Helmet } from "react-helmet";
+import { Button } from "./components/Button";
+import { Socials } from "./components/Socials";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <Helmet>
+        <style>{"body { background-color: #22262A; }"}</style>
+      </Helmet>
+      <div className="showcase">
+        <div className="content">
+          <h1>Hi, it’s Tsheten Sherpa</h1>
+          <p>
+            I’m a self-taught web developer based in Kathmandu, Nepal with
+            passion for learning new web technologies.
+          </p>
+          <Button>View Projects</Button>
+          <Socials></Socials>
+        </div>
+      </div>
+      <div className="footer">
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+          qui!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
