@@ -1,4 +1,5 @@
 import React from "react";
+import "./components/FortAwesomeIcons";
 import "./App.css";
 import { Helmet } from "react-helmet";
 import { Button } from "./components/Button";

@@ -4,13 +4,6 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
-import { library, icon } from "@fortawesome/fontawesome-svg-core";
-import { faGithub, faLinkedin } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-library.add(faGithub, faLinkedin);
-
-React.component("font-awesome-icon", FontAwesomeIcon);
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
