@@ -12,7 +12,7 @@ function App() {
           <style>{"body { background-color: #22262a; }"}</style>
         </Helmet>
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/Portfolio" exact component={Home} />
           <Route path="/projects" component={Projects} />
         </Switch>
       </div>
