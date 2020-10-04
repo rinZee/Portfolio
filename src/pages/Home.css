@@ -1,0 +1,29 @@
+.Home {
+  font-size: 24px;
+  text-align: center;
+}
+
+.Home .content {
+  padding: 10vh;
+  height: 80vh;
+  width: 70%;
+  margin: auto auto;
+}
+.Home h1 {
+  color: #ffffff;
+  font-size: 5rem;
+}
+
+.Home p {
+  padding-top: 2rem;
+  color: #94a4b4;
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+.Home .footer {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

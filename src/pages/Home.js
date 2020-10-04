@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css";
 import "../components/FortAwesomeIcons";
 
 import { Link } from "react-router-dom";
@@ -7,7 +8,7 @@ import { Socials } from "../components/Socials";
 
 export default function Home() {
   return (
-    <div>
+    <div className="Home">
       <div className="content">
         <h1>Hi, it’s Tsheten Sherpa</h1>
         <p>

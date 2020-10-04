@@ -4,10 +4,18 @@ import "./Socials.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const Socials = () => (
   <div className="socials">
-    <a href={"https://github.com/rinZee"}>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href={"https://github.com/rinZee"}
+    >
       <FontAwesomeIcon icon={["fab", "github"]} />
     </a>
-    <a href={"https://codepen.io/renjisherpa"}>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href={"https://codepen.io/renjisherpa"}
+    >
       <FontAwesomeIcon icon={["fab", "codepen"]} />
     </a>
   </div>
