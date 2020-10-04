@@ -3,7 +3,7 @@ import React from "react";
 import "./Socials.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const Socials = () => (
-  <div>
+  <div className="socials">
     <a href={"https://github.com/rinZee"}>
       <FontAwesomeIcon icon={["fab", "github"]} />
     </a>

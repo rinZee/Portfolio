@@ -1,34 +1,22 @@
 import React from "react";
-import "./components/FortAwesomeIcons";
 import "./App.css";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 import { Helmet } from "react-helmet";
-import { Button } from "./components/Button";
-import { Socials } from "./components/Socials";
-
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <Helmet>
-        <style>{"body { background-color: #22262A; }"}</style>
-      </Helmet>
-      <div className="showcase">
-        <div className="content">
-          <h1>Hi, it’s Tsheten Sherpa</h1>
-          <p>
-            I’m a self-taught web developer based in Kathmandu, Nepal with
-            passion for learning new web technologies.
-          </p>
-          <Button>View Projects</Button>
-          <Socials></Socials>
-        </div>
+    <Router>
+      <div className="App">
+        <Helmet>
+          <style>{"body { background-color: #22262a; }"}</style>
+        </Helmet>
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/projects" component={Projects} />
+        </Switch>
       </div>
-      <div className="footer">
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
-          qui!
-        </p>
-      </div>
-    </div>
+    </Router>
   );
 }
 
