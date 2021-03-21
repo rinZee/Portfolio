@@ -1,29 +1,48 @@
 .Home {
   font-size: 24px;
   text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
 .Home .content {
-  padding: 10vh;
-  height: 80vh;
-  width: 70%;
-  margin: auto auto;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
+
 .Home h1 {
+  padding-top: 15vh;
   color: #ffffff;
   font-size: 5rem;
 }
 
-.Home p {
+.Home .content p {
   padding-top: 2rem;
   color: #94a4b4;
   line-height: 2rem;
   font-size: 1.5rem;
 }
+
 .Home .footer {
-  height: 10vh;
-  width: 100%;
   display: flex;
-  align-items: center;
+  font-size: 0.5rem;
+  height: 5vh;
+  width: 100%;
   justify-content: center;
+  align-items: center;
+}
+
+.Home .footer p {
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .Home .content p {
+    display: none;
+  }
 }

@@ -13,18 +13,18 @@ export default function Home() {
         <h1>Hi, it’s Tsheten Sherpa</h1>
         <p>
           I’m a self-taught web developer based in Kathmandu, Nepal with passion
-          for learning new web technologies.
+          for web technologies.
         </p>
         <Link to="/projects">
           <Button>View Projects</Button>
         </Link>
+        <Link to="/skills">
+          <Button>View Skills</Button>
+        </Link>
         <Socials></Socials>
       </div>
       <div className="footer">
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
-          qui!
-        </p>
+        <p>&copy; Copyright 2021, Renji</p>
       </div>
     </div>
   );
