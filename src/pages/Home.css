@@ -4,6 +4,8 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
+  height: 100%;
+  width: 100%;
 }
 
 .Home .content {
@@ -15,8 +17,6 @@
 }
 
 .Home .content h1 {
-  margin: 0;
-  padding: 0;
   color: #ffffff;
   font-size: 5rem;
 }
