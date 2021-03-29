@@ -4,41 +4,29 @@
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  height: 100%;
-  width: 100%;
 }
 
 .Home .content {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
   align-items: center;
   justify-content: center;
 }
 
-.Home h1 {
-  padding-top: 15vh;
+.Home .content h1 {
+  margin: 0;
+  padding: 0;
   color: #ffffff;
   font-size: 5rem;
 }
 
 .Home .content p {
-  padding-top: 2rem;
-  color: #94a4b4;
-  line-height: 2rem;
-  font-size: 1.5rem;
-}
-
-.Home .footer {
-  display: flex;
-  font-size: 0.5rem;
-  height: 5vh;
-  width: 100%;
-  justify-content: center;
   align-items: center;
-}
-
-.Home .footer p {
-  color: #ffffff;
-  font-size: 1rem;
+  justify-content: center;
+  width: 60%;
+  color: #94a4b4;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 480px) {

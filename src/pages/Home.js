@@ -2,10 +2,10 @@ import React from "react";
 import "./Home.css";
 import "../components/FortAwesomeIcons";
 
-import { Link } from "react-router-dom";
-import { Button } from "../components/Button";
 import { Socials } from "../components/Socials";
-
+import {Form} from "../components/Form"
+import {Projects} from "../components/Projects";
+import {Footer} from "../components/Footer";
 export default function Home() {
   return (
     <div className="Home">
@@ -13,19 +13,15 @@ export default function Home() {
         <h1>Hi, it’s Tsheten Sherpa</h1>
         <p>
           I’m a self-taught web developer based in Kathmandu, Nepal with passion
-          for web technologies.
+          for developing web technologies.
         </p>
-        <Link to="/projects">
-          <Button>View Projects</Button>
-        </Link>
-        <Link to="/skills">
-          <Button>View Skills</Button>
-        </Link>
-        <Socials></Socials>
+        
+        <Socials />
+        
       </div>
-      <div className="footer">
-        <p>&copy; Copyright 2021, Renji</p>
-      </div>
+      <Projects />
+      <Form />
+      <Footer />
     </div>
   );
 }

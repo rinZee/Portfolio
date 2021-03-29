@@ -1,10 +1,8 @@
 import React from "react";
 import "./App.css";
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
 import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Skills from "./pages/Skills";
 function App() {
   return (
     <Router>
@@ -14,8 +12,6 @@ function App() {
         </Helmet>
         <Switch>
           <Route path="/Portfolio" exact component={Home} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/skills" component={Skills} />
         </Switch>
       </div>
     </Router>
