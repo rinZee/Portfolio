@@ -1,7 +1,10 @@
 import React from 'react';
 import './Projects.css';
+import Project from './Project';
+import chat from '../assets/chat.png';
+import foodbook from '../assets/FoodBook.png';
 
-export const   Projects = () => {
+export const Projects = () => {
     return (
         <div className={"projects"}>
             <div id="content">
@@ -9,18 +12,9 @@ export const   Projects = () => {
             <p>These are my favorite projects I've worked on for the past year. Have a look around and make sure to hit me up!</p>
         </div>
         <div className="cards">      
-         <div className="card">
-             <img src={require('../assets/chat.png')} alt=""/>
-             <p>ChatUp</p>
-             <a href="https://github.com/rinZee/Chat-Up" target='_blank' rel="noopener noreferrer">show code</a>
-             <a href="https://chat-upp.herokuapp.com/" target='_blank' rel="noopener noreferrer">open site</a>
-         </div>
-         <div className="card">
-             <img src={require('../assets/FoodBook.png')} alt=""/>
-             <p>FoodBook</p>
-             <a href="https://github.com/rinZee/React-recipe" target='_blank' rel="noopener noreferrer">show code</a>
-             <a href="https://chat-upp.herokuapp.com/" target='_blank' rel="noopener noreferrer">open site</a>
-         </div>
+        < Project title={'ChatUp'} code={'https://github.com/rinZee/Chat-Up'} site={"https://chat-upp.herokuapp.com/"} photo={chat}/>
+        < Project title={'CookBook'} code={'https://github.com/rinZee/React-recipe'} site={"https://rinzee.github.io/React-recipe/"} photo={foodbook}/>
+         
 </div>
         </div>
     )
