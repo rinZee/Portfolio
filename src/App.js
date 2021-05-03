@@ -11,7 +11,7 @@ function App() {
           <style>{"body { background-color: #22262a; }"}</style>
         </Helmet>
         <Switch>
-          <Route path="/Portfolio" exact component={Home} />
+          <Route path="/" component={Home} />
         </Switch>
       </div>
     </Router>

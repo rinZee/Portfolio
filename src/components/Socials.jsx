@@ -9,14 +9,17 @@ export const Socials = () => (
       rel="noopener noreferrer"
       href={"https://github.com/rinZee"}
     >
-      <FontAwesomeIcon icon={["fab", "github"]} />
+      <FontAwesomeIcon icon={["fab", "github"]} color='white' />
     </a>
     <a
       target="_blank"
       rel="noopener noreferrer"
       href={"https://codepen.io/renjisherpa"}
     >
-      <FontAwesomeIcon icon={["fab", "codepen"]} />
+      <FontAwesomeIcon icon={["fab", "codepen"]} color='white' />
     </a>
+
+  
+    
   </div>
 );

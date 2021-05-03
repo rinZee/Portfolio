@@ -1,9 +1,21 @@
 .projects {
+  display: flex;
   text-align: start;
-  height: 100vh;
+  margin-top: 10vh;
   line-height: 2rem;
-  padding-left: 8vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+.projects #content {
+  height: fit-content;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .projects h1 {
   font-size: 3rem;
   color: #fff;
@@ -12,4 +24,24 @@
 .projects p {
   font-size: 1.2rem;
   color: #94a4b4;
+}
+
+.cards {
+  margin: 10vh 0;
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  background-color: aqua;
+  height: 500px;
+  width: 400px;
+}
+
+img {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  object-fit: contain;
 }
