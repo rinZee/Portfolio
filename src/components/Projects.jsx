@@ -12,8 +12,8 @@ export const Projects = () => {
             <p>These are my favorite projects I've worked on for the past year. Have a look around and make sure to hit me up!</p>
         </div>
         <div className="cards">      
-        < Project title={'ChatUp'} code={'https://github.com/rinZee/Chat-Up'} site={"https://chat-upp.herokuapp.com/"} photo={chat}/>
-        < Project title={'CookBook'} code={'https://github.com/rinZee/React-recipe'} site={"https://rinzee.github.io/React-recipe/"} photo={foodbook}/>
+        < Project title={'ChatUp'} code={'https://github.com/rinZee/Chat-Up'} site={"https://chat-upp.herokuapp.com/"} photo={chat} description={'This is a chat application built with socket.io using next.js'}/>
+        < Project title={'CookBook'} code={'https://github.com/rinZee/React-recipe'} site={"https://rinzee.github.io/React-recipe/"} photo={foodbook} description={'This is a recipe app that uses react-router and context api'}/>
          
 </div>
         </div>
