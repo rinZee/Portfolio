@@ -1,11 +1,51 @@
 .card {
-  background-color: aqua;
-  height: 500px;
+  background-color: #fff;
+  height: 400px;
   width: 400px;
+  border-radius: 40px;
 }
 
 img {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: contain;
+}
+
+.card h1 {
+  font-size: 1.5rem;
+  color: #000;
+  text-align: center;
+}
+
+.card p {
+  color: #000;
+  text-align: center;
+  font-size: 1rem;
+  line-height: normal;
+}
+
+.card a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+
+.card button {
+  background-color: #22262a;
+  border: none;
+  border-radius: 40px;
+  height: 3rem;
+  width: 8rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #22262a;
+  cursor: pointer;
 }
