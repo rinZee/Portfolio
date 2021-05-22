@@ -1,6 +1,6 @@
 import emailjs from "emailjs-com";
 import React from "react";
-
+import "./Contact.css";
 export default function Contact() {
   function sendEmail(e) {
     e.preventDefault();
@@ -25,35 +25,20 @@ export default function Contact() {
 
   return (
     <div className="container">
-      <form onSubmit={sendEmail}>
-        <div className="row pt-5 mx-auto">
-          <div className="col-8 form-group mx-auto">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Name"
-              name="name"
-            />
+      <h1>Contact Me</h1>
+      <div className="form">
+        <form onSubmit={sendEmail}>
+          <div className="form-control">
+            <input type="text" placeholder="Name" name="name" />
           </div>
-          <div className="col-8 form-group pt-2 mx-auto">
-            <input
-              type="email"
-              className="form-control"
-              placeholder="Email Address"
-              name="email"
-            />
+          <div className="form-control">
+            <input type="email" placeholder="Email Address" name="email" />
           </div>
-          <div className="col-8 form-group pt-2 mx-auto">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Subject"
-              name="subject"
-            />
+          <div className="form-control">
+            <input type="text" placeholder="Subject" name="subject" />
           </div>
-          <div className="col-8 form-group pt-2 mx-auto">
+          <div className="form-control">
             <textarea
-              className="form-control"
               id=""
               cols="30"
               rows="8"
@@ -61,15 +46,11 @@ export default function Contact() {
               name="message"
             ></textarea>
           </div>
-          <div className="col-8 pt-3 mx-auto">
-            <input
-              type="submit"
-              className="btn btn-info"
-              value="Send Message"
-            ></input>
+          <div className="form-control">
+            <input type="submit" className="btn" value="Send Message"></input>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   );
 }

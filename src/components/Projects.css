@@ -1,6 +1,7 @@
 .projects {
   display: flex;
   text-align: start;
+  width: 100%;
   margin-top: 10vh;
   line-height: 2rem;
   flex-direction: column;
@@ -32,4 +33,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  .cards {
+    flex-direction: column;
+  }
 }
