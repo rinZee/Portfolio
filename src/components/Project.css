@@ -49,3 +49,11 @@ button:hover {
   background-color: #22262a;
   cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .card {
+    margin-top: 2rem;
+    height: 300px;
+    width: 95%;
+  }
+}
