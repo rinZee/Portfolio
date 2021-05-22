@@ -3,9 +3,10 @@ import "./Home.css";
 import "../components/FortAwesomeIcons";
 
 import { Socials } from "../components/Socials";
-import {Form} from "../components/Form"
-import {Projects} from "../components/Projects";
-import {Footer} from "../components/Footer";
+import Contact from "../components/Contact";
+
+import { Projects } from "../components/Projects";
+import { Footer } from "../components/Footer";
 export default function Home() {
   return (
     <div className="Home">
@@ -15,12 +16,11 @@ export default function Home() {
           I’m a self-taught web developer based in Kathmandu, Nepal with passion
           for developing web technologies.
         </p>
-        
+
         <Socials />
-        
       </div>
       <Projects />
-      <Form />
+      <Contact />
       <Footer />
     </div>
   );
