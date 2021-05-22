@@ -18,3 +18,9 @@ h1 {
 .btn {
   border-radius: 20px;
 }
+
+@media screen and (max-width: 480px) {
+  .form {
+    width: 80%;
+  }
+}
