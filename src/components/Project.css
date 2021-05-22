@@ -1,16 +1,18 @@
 .card {
   background-color: #fff;
-  height: 350px;
-  width: 350px;
-  border-radius: 40px;
+  width: 40%;
+  height: fit-content;
+  margin-left: 10px;
+  height: 55vh;
+  border-radius: 20px;
 }
 
 img {
   width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: contain;
 }
-
+.container {
+  padding: 2px 16px;
+}
 .card h1 {
   font-size: 1.5rem;
   color: #000;
@@ -32,17 +34,15 @@ img {
 .buttons {
   display: flex;
   justify-content: space-between;
-  margin: 0 10%;
 }
 
 .card button {
   background-color: #22262a;
   border: none;
-  border-radius: 40px;
+  border-radius: 20px;
   height: 3rem;
   width: 8rem;
   text-decoration: none;
-  text-align: center;
 }
 
 button:hover {
@@ -53,7 +53,7 @@ button:hover {
 @media screen and (max-width: 480px) {
   .card {
     margin-top: 2rem;
-    height: 300px;
-    width: 95%;
+    width: 90vw;
+    height: 55vh;
   }
 }
