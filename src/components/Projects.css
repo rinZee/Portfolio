@@ -42,4 +42,7 @@
     text-align: center;
     width: 90%;
   }
+  .projects p {
+    width: 90%;
+  }
 }

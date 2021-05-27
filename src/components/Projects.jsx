@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import Project from "./Project";
 import firebase from "../assets/firebase-chat.png";
-import foodbook from "../assets/FoodBook.png";
+import foodbook from "../assets/Foodbook.png";
 import Microsoft from "../assets/Microsoft Homepage clone.png";
 
 export const Projects = () => {
