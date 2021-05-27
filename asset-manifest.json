@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a83d0afb.chunk.css",
-    "main.js": "/Portfolio/static/js/main.20a7e639.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.20a7e639.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.962915eb.chunk.css",
+    "main.js": "/Portfolio/static/js/main.bc3d0b55.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.bc3d0b55.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.9e287cfb.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.9e287cfb.js.map",
-    "static/js/2.dd087f58.chunk.js": "/Portfolio/static/js/2.dd087f58.chunk.js",
-    "static/js/2.dd087f58.chunk.js.map": "/Portfolio/static/js/2.dd087f58.chunk.js.map",
+    "static/js/2.89862694.chunk.js": "/Portfolio/static/js/2.89862694.chunk.js",
+    "static/js/2.89862694.chunk.js.map": "/Portfolio/static/js/2.89862694.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.6e2816eb91b98b604f3109aad4c9e68c.js": "/Portfolio/precache-manifest.6e2816eb91b98b604f3109aad4c9e68c.js",
+    "precache-manifest.3bad045168f2ac9298fc359e4da9b7b9.js": "/Portfolio/precache-manifest.3bad045168f2ac9298fc359e4da9b7b9.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.a83d0afb.chunk.css.map": "/Portfolio/static/css/main.a83d0afb.chunk.css.map",
-    "static/js/2.dd087f58.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.dd087f58.chunk.js.LICENSE.txt",
-    "static/media/FoodBook.png": "/Portfolio/static/media/FoodBook.e3eeef76.png",
+    "static/css/main.962915eb.chunk.css.map": "/Portfolio/static/css/main.962915eb.chunk.css.map",
+    "static/js/2.89862694.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.89862694.chunk.js.LICENSE.txt",
+    "static/media/Foodbook.png": "/Portfolio/static/media/Foodbook.9629855c.png",
     "static/media/Microsoft Homepage clone.png": "/Portfolio/static/media/Microsoft Homepage clone.db581115.png",
     "static/media/firebase-chat.png": "/Portfolio/static/media/firebase-chat.ca37d55e.png",
-    "static/media/resume.pdf": "/Portfolio/static/media/resume.9a65a5ac.pdf"
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.c0683951.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.9e287cfb.js",
-    "static/js/2.dd087f58.chunk.js",
-    "static/css/main.a83d0afb.chunk.css",
-    "static/js/main.20a7e639.chunk.js"
+    "static/js/2.89862694.chunk.js",
+    "static/css/main.962915eb.chunk.css",
+    "static/js/main.bc3d0b55.chunk.js"
   ]
 }
