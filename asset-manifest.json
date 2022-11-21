@@ -1,26 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.962915eb.chunk.css",
-    "main.js": "/Portfolio/static/js/main.bc3d0b55.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.bc3d0b55.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.9e287cfb.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.9e287cfb.js.map",
-    "static/js/2.89862694.chunk.js": "/Portfolio/static/js/2.89862694.chunk.js",
-    "static/js/2.89862694.chunk.js.map": "/Portfolio/static/js/2.89862694.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.74bbff91.css",
+    "main.js": "/Portfolio/static/js/main.397db718.js",
+    "static/media/Microsoft Homepage clone.png": "/Portfolio/static/media/Microsoft Homepage clone.51efd0f75a725d71c4f4.png",
+    "static/media/Foodbook.png": "/Portfolio/static/media/Foodbook.aa7293b8d66bda81ad07.png",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.485a078acf623f9d4009.pdf",
+    "static/media/firebase-chat.png": "/Portfolio/static/media/firebase-chat.aa6584718432d6e5e5ba.png",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.3bad045168f2ac9298fc359e4da9b7b9.js": "/Portfolio/precache-manifest.3bad045168f2ac9298fc359e4da9b7b9.js",
-    "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.962915eb.chunk.css.map": "/Portfolio/static/css/main.962915eb.chunk.css.map",
-    "static/js/2.89862694.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.89862694.chunk.js.LICENSE.txt",
-    "static/media/Foodbook.png": "/Portfolio/static/media/Foodbook.9629855c.png",
-    "static/media/Microsoft Homepage clone.png": "/Portfolio/static/media/Microsoft Homepage clone.db581115.png",
-    "static/media/firebase-chat.png": "/Portfolio/static/media/firebase-chat.ca37d55e.png",
-    "static/media/resume.pdf": "/Portfolio/static/media/resume.c0683951.pdf"
+    "main.74bbff91.css.map": "/Portfolio/static/css/main.74bbff91.css.map",
+    "main.397db718.js.map": "/Portfolio/static/js/main.397db718.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.9e287cfb.js",
-    "static/js/2.89862694.chunk.js",
-    "static/css/main.962915eb.chunk.css",
-    "static/js/main.bc3d0b55.chunk.js"
+    "static/css/main.74bbff91.css",
+    "static/js/main.397db718.js"
   ]
 }
